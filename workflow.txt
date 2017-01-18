@@ -1,0 +1,63 @@
+Screen 1
+    Create account : yes  /  no
+
+Screen 2
+    Mobile phone no input 
+        Phone no validation
+        Checking if the mobile # exists already
+            Yes : Alternate workflow
+            No  : Contiue to send to trigger Token
+
+Screen 3
+    Taking the token + phone no combo
+        Combo correct
+            Yes : Next screen
+            No  : Alert message : Global error
+
+    Resend the code
+        : Any conditions
+
+Screen 4 & 5
+    Adding PIN to the account
+    Confirming the PIN
+    PIN adding to the account
+
+Screen 6
+    Adding email to the account
+        Checking if the email exists
+            Yes : continue
+            No  : send error message
+
+Screen 7 
+    Taking in the personal details 
+        Full Name
+        DOB
+        Address
+        City
+
+
+Screen 8 
+    Occupation details capture
+        Occupation
+        Work duration
+        Position
+        Salary per month
+
+
+Screen 9 
+    Confirm button click
+
+Screen 10
+    Document upload
+        National ID (2)
+        Proof of income (3)
+        Utitlity bills (3)
+        Bank Statement (1)
+
+Screen 11
+    Connect to FB
+        Yes : Store FB details
+        No : Continue to screen
+
+Screen 12 
+    Home screen with stats on registration progress
